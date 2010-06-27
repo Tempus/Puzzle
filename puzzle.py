@@ -2790,6 +2790,9 @@ class MainWindow(QtGui.QMainWindow):
         else:
             solid = 0
         
+        if palette.coreWidgets[1].isChecked() == 1 or palette.coreWidgets[2].isChecked() == 1:
+            solid = 0
+
 
         curTile.byte1 = ((palette.coreWidgets[8].isChecked()) + 
                         (palette.propertyWidgets[2].isChecked() << 1) +
