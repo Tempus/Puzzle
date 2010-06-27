@@ -1343,6 +1343,9 @@ class tileOverlord(QtGui.QWidget):
                     ctile += 1
                 crow += 1
                 ctile = 0
+                
+            object.upperslope = [0, 0]
+            object.lowerslope = [0, 0]
 
         if listindex == 2: # Stretch X
 
@@ -1365,7 +1368,10 @@ class tileOverlord(QtGui.QWidget):
                     ctile += 1
                 crow += 1
                 ctile = 0
-                
+                 
+            object.upperslope = [0, 0]
+            object.lowerslope = [0, 0]
+               
         if listindex == 3: # Stretch Y
 
             if object.height < 3:
@@ -1388,6 +1394,9 @@ class tileOverlord(QtGui.QWidget):
                 crow += 1
                 ctile = 0
                 
+            object.upperslope = [0, 0]
+            object.lowerslope = [0, 0]
+                
         if listindex == 4: # Repeat Bottom
 
             if object.height < 2:
@@ -1407,6 +1416,9 @@ class tileOverlord(QtGui.QWidget):
                     ctile += 1
                 crow += 1
                 ctile = 0
+                
+            object.upperslope = [0, 0]
+            object.lowerslope = [0, 0]
 
         if listindex == 5: # Repeat Top
 
@@ -1427,6 +1439,9 @@ class tileOverlord(QtGui.QWidget):
                     ctile += 1
                 crow += 1
                 ctile = 0
+                
+            object.upperslope = [0, 0]
+            object.lowerslope = [0, 0]
 
         if listindex == 6: # Repeat Left
 
@@ -1447,6 +1462,9 @@ class tileOverlord(QtGui.QWidget):
                     ctile += 1
                 crow += 1
                 ctile = 0
+                
+            object.upperslope = [0, 0]
+            object.lowerslope = [0, 0]
 
         if listindex == 7: # Repeat Right
 
@@ -1467,6 +1485,9 @@ class tileOverlord(QtGui.QWidget):
                     ctile += 1
                 crow += 1
                 ctile = 0
+                
+            object.upperslope = [0, 0]
+            object.lowerslope = [0, 0]
 
 
         if listindex == 8: # Upward Slope
@@ -1485,7 +1506,7 @@ class tileOverlord(QtGui.QWidget):
             
             self.tiles.update()
             
-        if listindex == 9: # Downware Slope
+        if listindex == 9: # Downward Slope
             ctile = 0
             crow = 0
             for row in object.tiles:
