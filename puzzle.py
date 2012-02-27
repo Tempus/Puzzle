@@ -21,12 +21,13 @@ except ImportError:
 # To Do:
 #
 #   - Object Editor
-#       - Adding/Removing Objects
-#       - Moving the subblock around
+#       - Moving objects around
 #
-#   - Fix UI a little
-#   - More Icons
+#   - Make UI simpler for Pop
+#   - Animated Tiles
+#   - fix up conflicts with different types of parameters
 #   - C speed saving
+#   - quick settings for applying to mulitple slopes
 #
 ########################################################
 
